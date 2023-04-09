@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update customer</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<a href="list.html">Back to list Customer</a>
+<h1>Update Customer</h1>
+<form id="edit-customer">
+    <table>
+        <input type="hidden" name="id" id="id"/>
+        <tr>
+            <td>First name:</td>
+            <td><label for="firstName"></label><input type="text" id="firstName" placeholder="firstName"></td>
+        </tr>
+        <tr>
+            <td>Last name:</td>
+            <td><label for="lastName"></label><input type="text" id="lastName" placeholder="lastName"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update" onclick="updateById()"></td>
+        </tr>
+    </table>
+</form>
+<script src="customers.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create customer</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<a href="list.html">Back to list Customer</a>
+<h1>Create Customer</h1>
+<form id="add-customer">
+  <table>
+    <tr>
+      <td>First name:</td>
+      <td><label for="firstName"></label><input type="text" id="firstName" placeholder="firstName"></td>
+    </tr>
+    <tr>
+      <td>Last name:</td>
+      <td><label for="lastName"></label><input type="text" id="lastName" placeholder="lastName"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="submit" value="Add" onclick="addNewCustomer()"></td>
+    </tr>
+  </table>
+</form>
+<script src="customers.js"></script>
+</body>
+</html>
